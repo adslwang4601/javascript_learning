@@ -1,0 +1,76 @@
+
+
+/* float 1*/
+/* .container {
+    height: 100%;
+    overflow: auto;
+}
+
+.container div:nth-child(1){
+    float: left;
+    width: 30%;
+    height: 90px;
+    background-color: aquamarine;
+}
+
+.container div:nth-child(2){
+    float: left;
+    width: 70%;
+    height: 90px;
+    background-color: yellow;
+} */
+
+
+/* float 2*/
+/* .container {
+    height: 100%;
+    width: 100%;
+    overflow:auto;
+}
+
+.container div:nth-child(1){
+    float: left;
+    width: 200px;
+    height: 90px;
+    background-color: aquamarine;
+}
+
+.container div:nth-child(2){
+    height: 90px;
+    background-color: yellow;
+} */
+
+/* float 3*/
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.5;
+    background: #f2f2f2;
+    color: #323232;
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+}
+
+.left {
+    float: left;
+    width: calc(100% - 200px);
+    height: 90px;
+    background-color: yellow;
+}
+
+.right {
+    float: right;
+    width: 200px;
+    height: 90px;
+    background-color: aquamarine;
+}
+
+
+
+
+

@@ -1,0 +1,72 @@
+html {
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: "Arial";
+    line-height: 1.5;
+    background: white;
+    color: #323232;
+    height: 1300px;
+}
+
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: green;
+}
+a:hover {
+    color: hotpink;
+    text-decoration: underline;
+}
+
+a:active {
+    color: yellow;
+}
+
+.left {
+    background-color: gray;
+    color: white;
+    font-weight: bold;
+    padding: 9px;
+}
+
+section {
+    border: 1px solid #f0f0f0;
+    overflow: auto;
+    display: flex;
+}
+
+
+
+section >div:first-of-type {
+    float: left;
+    text-align: center;
+    align-items: stretch;
+    background-color: lightgray;
+    padding: 10px;
+    
+}
+
+.list {
+    float: left;
+    padding: 10px;
+}
+
+.info-list {
+    display: flex;
+}
+
+.contact-list {
+    display: flex;
+}
+
+.list >div {
+    margin-right: 10px;
+}
+

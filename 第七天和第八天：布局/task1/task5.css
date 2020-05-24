@@ -1,0 +1,72 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.5;
+    background: #f2f2f2;
+    color: #323232;
+    height: 100%;
+    width: 100%;
+}
+
+/* .container {
+    height: 100%;
+    width: 100%;
+    overflow:auto;
+}
+
+.left {
+    float: left;
+    width: 90px;
+    height: 90px;
+    background-color: aquamarine;
+}
+
+.center {
+    float: left;
+    width: 90px;
+    height: 90px;
+    background-color: yellow;
+}
+
+.right {
+    float: right;
+    width: calc(100% - 180px);
+    height: 90px;
+    background-color: blue;
+} */
+
+
+.container {
+  position: relative;
+  width: 100%;
+  height: 100px;
+}
+
+.left {
+  position: absolute;
+  background-color: aquamarine;
+  left: 0;
+  width: 30px;
+}
+
+.center {
+  position: absolute;
+  background-color: red;
+  left: 30px;
+  width: 30px;
+}
+
+.right {
+  position: absolute;
+  background-color:yellow;
+  right: 0;
+  width: calc(100% - 60px);
+}
+
+
+
+
+
+
+
+
+

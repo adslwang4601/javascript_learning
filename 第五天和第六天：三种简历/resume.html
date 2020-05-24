@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Qiang">
+  <title>简历</title>
+  <link rel="stylesheet" type="text/css" href="style3_new.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="column left">简历</div>
+    <div class="column right">
+      <section>
+        <div class="h2-div">
+          <h2>基本信息</h2>
+        </div>
+        <div class="info-list list">
+          <div class="info-item">
+            <p><span><b>姓名</b>&nbsp;&nbsp;&nbsp;&nbsp;张三</span></p>
+          </div>
+          <div class="info-item">
+            </p><span><b>性别</b>&nbsp;&nbsp;&nbsp;&nbsp;男</span></p>
+          </div>
+          <div class="info-item">
+            <p><span><b>应聘职位</b>&nbsp;&nbsp;&nbsp;&nbsp;Web前端工程师</span></p>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="h2-div">
+          <h2>联系方式</h2>
+        </div>
+        <div class="contact-list list">
+          <div class="contact-item">
+            <p><span><b>手机</b>&nbsp;&nbsp;&nbsp;&nbsp;123123123</span></p>
+          </div>
+          <div class="contact-item">
+            <p><span><b>Email</b>&nbsp;&nbsp;&nbsp;&nbsp;xxxx@baidu.com</span></p>
+          </div>
+          <div class="contact-item">
+            <p><span><b>个人主页</b>&nbsp;&nbsp;&nbsp;&nbsp;<a class="value" href="xxxx@baidu.com">Github</a></span></p>
+          </div>
+        </div>
+        <!-- /.contact-list -->
+      </section>
+      <section>
+        <div class="h2-div">
+          <h2>能力描述</h2>
+        </div>
+        <div class="ability-container list">
+          <div class="ability-item l1">
+            <p><span><b>技术能力</b>&nbsp;&nbsp;&nbsp;&nbsp; 熟练掌握HTML, CSS, JavaScript</span></p>
+          </div>
+          <div class="clear"></div>
+          <div class="ability-item l2">
+            <p><span><b>综合能力</b>&nbsp;&nbsp;&nbsp;&nbsp;良好的沟通，主动积极，努力勤奋</span></p>
+          </div>
+        </div>
+        <!-- /.ability-container -->
+      </section>
+      <section>
+        <div class="h2-div">
+          <h2>教育经历</h2>
+        </div>
+        <div class="education-container list">
+          <div class="education-item">
+            <p><span><b>本科</b>&nbsp;&nbsp;&nbsp;&nbsp; 百度前端技术学院小薇学院</span></p>
+          </div>
+          <div class="education-item">
+            <p><span><b>研究生</b>&nbsp;&nbsp;&nbsp;&nbsp; 百度前端技术学院小薇学院</span></p>
+          </div>
+        </div>
+        <!-- /.education-container -->
+      </section>
+      <section>
+        <div class="h2-div">
+          <h2>项目经历</h2>
+        </div>
+        <div class="project-container list">
+          <div class="project-item">
+            <p><span><b>小度小度</b>&nbsp;&nbsp;&nbsp;&nbsp; 作为前端工程师角色参与了ABC组件的开发</span></p>
+          </div>
+          <div class="project-item">
+            <p><span><b>SAN Doc</b>&nbsp;&nbsp;&nbsp;&nbsp; 作为文档工程师参与了SAN Doc编写</span></p>
+          </div>
+          <div class="project-item">
+            <button id='hobby-btn'>点开看看</button>
+            <p id="hobby-list"></p>
+            <p id="here">dwqdq</p>
+            <script>
+              document.getElementById("hobby-btn").onclick = function () {
+                document.getElementById("hobby-list").innerHTML = document.getElementById("here").value;
+              }
+            </script>
+          </div>
+        </div>
+        <!-- /.education-container -->
+      </section>
+    </div>
+  </div>
+</body>
+
+</html>

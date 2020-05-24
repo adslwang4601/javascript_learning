@@ -1,0 +1,165 @@
+html {
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.5;
+    background: #f2f2f2;
+    color: #323232;
+    height: 1300px;
+}
+
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: green;
+}
+a:hover {
+    color: hotpink;
+    text-decoration: underline;
+}
+
+a:active {
+    color: yellow;
+}
+
+/* .container {
+    display: flex;
+    justify-content: space-between;
+} */
+
+.container {
+    max-width: 780;
+    height: 1200px;
+    margin: 40px; 
+    /* padding: 25px; */
+    /* background: wgrhite; */
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);  */
+    border: 2px solid black;
+
+  }
+
+.column {
+    float: left;
+    padding: 10px;
+    height: 1197px;
+  }
+
+.left {
+    width: 25%;
+    background-color: lightblue;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    padding-top: 40px;
+}
+
+.right {
+    width: 75%;
+    padding: 25px;
+    
+}
+
+/*************
+* Right
+ *************/
+
+h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+section {
+    border-bottom: 1px solid black;
+    /* margin-bottom: 3px; */
+}
+
+section:last-of-type {
+    border-bottom: none; 
+}
+
+/*************
+* Main info
+ *************/
+
+
+
+.info-list {
+    flex-direction: row;
+    display: flex;
+    margin: 10px 0 5px 0;
+  }
+  
+/* .info-item {
+    display: flex;
+    align-items: center;
+    flex: auto;
+    margin: 20px;
+    float: left;
+} */
+
+.key {
+    font-weight: 900;
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.value {
+    font-weight: initial;
+    font-size: 18px;
+    margin-right: 50px;
+}
+
+
+/*************
+* Contact info
+ *************/
+.contact-list {
+    display: flex;
+    margin: 10px 0 5px 0;
+  }
+  
+/*************
+* Ability info
+ *************/
+ .ability-item p:first-of-type {
+     font-size: 20px;
+     font-weight: 600;
+ }
+
+ /*************
+* Education info
+ *************/
+ .education-item p:first-of-type{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/*************
+* Project info
+ *************/
+ .project-item p:first-of-type{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

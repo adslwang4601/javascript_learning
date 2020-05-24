@@ -1,0 +1,144 @@
+html {
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: "Arial";
+    line-height: 1.5;
+    background: white;
+    color: #323232;
+    height: 1300px;
+}
+
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: green;
+}
+a:hover {
+    color: hotpink;
+    text-decoration: underline;
+}
+
+a:active {
+    color: yellow;
+}
+
+
+
+/* .container {
+    display: flex;
+    justify-content: space-between;
+} */
+
+.container {
+    max-width: 780;
+    height: 487px;
+    margin: 40px; 
+    /* padding: 25px; */
+    /* background: wgrhite; */
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);  */
+    border: 2px solid black;
+
+  }
+
+.left {
+    background-color: gray;
+    color: white;
+    font-weight: bold;
+    padding: 9px;
+}
+
+section {
+    border-bottom: 1px solid gray;
+    flex-direction: row;
+    display: flex;
+    /* margin: 10px 0 5px 0; */
+}
+
+
+.h2-div {
+    text-align: center;
+    width: 20%;
+    padding: 10px, 5px;
+    background-color: lightgray;
+    font-size: 12px; 
+}
+
+.list {
+    text-align: left;
+    width: 80%;
+    font-size: 13px;
+
+}
+
+.info-list {
+    text-align: center;
+    margin: auto;
+}
+
+.info-item{
+    float: left;
+    margin-right: 15px;
+    margin-left: 15px;
+    display: inline-block;
+}
+
+
+.contact-list {
+    text-align: center;
+    margin: auto;
+}
+
+.contact-item{
+    float: left;
+    margin-right: 15px;
+    margin-left: 15px;
+    display: inline-block;
+}
+
+.key{
+    margin-right: 5px;
+    font-weight: 900;
+}
+
+.l1 p{
+    float: left;
+    /* width: 20px; */
+}
+
+/* .l2 p{
+    float: left;
+    /* width: 20px; 
+} 
+*/
+/* .clear{clear:both;} */
+
+/* 1. p为什么不能float
+2.  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
